@@ -18,7 +18,7 @@ let graph = {
 };
 
 
-let shortestDistanceNode = (distances, visited) => {
+const shortestDistanceNode = (distances, visited) => {
     // create a default value for shortest
     let shortest = null;
 
@@ -37,7 +37,7 @@ let shortestDistanceNode = (distances, visited) => {
     return shortest;
 };
 
-let findShortestPath = (graph, startNode, endNode) => {
+const findShortestPath = (graph, startNode, endNode) => {
  
     // track distances from the start node using a hash object
       let distances = {};
